@@ -1,0 +1,203 @@
+header
+{
+	font-family:Segoe UI;
+	text-align: center;
+	color: #73c2fb;
+	padding : 0px;
+	padding-top: 10px;
+}
+header h1
+{
+	padding:0
+	margin:0;
+	font-size:50px;
+	letter-spacing: 40px;
+	position:relative;
+}
+
+body
+{
+	background:#003152;
+	margin: 0;
+} 
+nav
+{
+	padding:0px;
+	margin: 0;
+	width: 100%;
+	top:0;
+	height:35px;
+	background:#0f52ba;
+	border-radius:5px;
+	position:sticky;
+	top:30;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding-top:0px;
+	padding-left:10px;
+}
+
+nav li
+{
+	padding-top: 7px; 
+	padding-left: 20px;
+	font-family:Segoe UI;
+	list-style:none;	
+	float:left;
+
+}
+
+nav li a
+{
+	text-decoration:none;
+	color:white;
+	padding-left: 15px;
+	padding-right:15px;	
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+nav li a:hover
+{
+	background:#73c2fb;
+	color:#003152;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+#container
+{
+	margin: 0;
+	padding:0;
+	border-radius: 10px;
+	background:;
+}
+#cover
+{
+	border-radius: 10px;
+	height:350px;
+	background-image: url("cover.jpg");
+	background-size: 1400px 350px;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+}
+#inside
+{
+	background-image: url("p.jpg");
+	background-size: 200px 200px;
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	position:absolute;
+	bottom:100px;
+	right:100px;
+	
+}
+#cover h1
+{
+	margin:0;
+	font-family: Segoe UI;
+	font-weight: lighter;
+	font-size: 100px;
+	color: #6d6d6d;
+	padding-top: 100px;
+	padding-left:40px;
+	letter-spacing: 10px;
+}
+#About
+{
+	background: #008081
+}
+#About p
+{
+	padding:40px;
+	padding-top:0px;
+	font-family: Verdana;
+	color: ;
+	font-size: 25px;
+	line-height:40px;
+}
+#About h1
+{
+	font-weight: lighter;
+	font-family: Segoe UI;
+	color: #d2d2d2;
+	font-size: 60px;
+	text-align: center
+}
+
+#Services
+{
+	background: #008081
+}
+
+#Services p
+{	
+	padding:40px;
+	padding-top:0px;
+	font-family: Verdana;
+	color: ;
+	font-size: 25px;
+	line-height:40px;
+}
+#Services h1
+{
+	font-weight: lighter;
+	font-family: Segoe UI;
+	color: #d2d2d2;
+	font-size: 60px;
+	text-align: center
+}
+#Contact h1
+{
+	font-weight: lighter;
+	font-family: Segoe UI;
+	color: #d2d2d2;
+	font-size: 60px;
+	text-align: center
+}
+
+#Contact
+{
+	background: #008081;
+}
+
+footer
+{
+	background:#008081;
+	font-weight: lighter;
+	font-family: Segoe UI;
+	color: #d2d2d2;
+	font-size: 40px;
+	text-align: center
+}
+#cdetails
+{
+	margin-left:100px;
+	float: left;
+}
+#social
+{
+	margin-top: 50px;
+	float:right;
+	padding-right: 30px;
+	margin-right: 300px;
+}
+#bfb
+{
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+#bli
+{
+	padding-left: 30px;
+	padding-right: 14px;
+}
+.clr
+{
+	clear:both;
+}
