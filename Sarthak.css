@@ -10,7 +10,7 @@ header h1
 {
 	padding:0
 	margin:0;
-	font-size:50px;
+	font-size:90px;
 	letter-spacing: 40px;
 	position:relative;
 }
@@ -22,15 +22,17 @@ body
 } 
 nav
 {
-	padding:0px;
-	margin: 0;
-	width: 100%;
+	padding-top: 10px;
+	padding-bottom:25px;
+	margin: 20px;
+	margin-bottom: 0;
 	top:0;
-	height:35px;
+	height:40px;
 	background:#0f52ba;
-	border-radius:5px;
+	border-radius:10px;
 	position:sticky;
-	top:30;
+	top:20;
+	font-size: 30px;
 }
 
 nav ul
@@ -42,7 +44,7 @@ nav ul
 
 nav li
 {
-	padding-top: 7px; 
+	padding-top: 10px; 
 	padding-left: 20px;
 	font-family:Segoe UI;
 	list-style:none;	
@@ -70,24 +72,26 @@ nav li a:hover
 
 #container
 {
-	margin: 0;
+	margin: 20px;
+	margin-top: 0px;
 	padding:0;
-	border-radius: 10px;
-	background:;
+	border-radius: 20px;
+	background:#b0dfe5;
+	margin-bottom: 70px;
 }
 #cover
 {
 	border-radius: 10px;
-	height:350px;
+	height:400px;
 	background-image: url("cover.jpg");
-	background-size: 1400px 350px;
-	background-repeat: no-repeat;
+	background-size: 2300px 400px;
 	position: relative;
-	width: 100%;
+	margin:20px;
+	margin-top: 20px;
 }
 #inside
 {
-	background-image: url("p.jpg");
+	background-image: url("p.JPG");
 	background-size: 200px 200px;
 	width:200px;
 	height:200px;
@@ -102,82 +106,191 @@ nav li a:hover
 	margin:0;
 	font-family: Segoe UI;
 	font-weight: lighter;
-	font-size: 100px;
+	font-size: 120px;
 	color: #6d6d6d;
-	padding-top: 100px;
-	padding-left:40px;
+	padding-top: 120px;
+	padding-left:80px;
 	letter-spacing: 10px;
 }
 #About
 {
-	background: #008081
+	border-radius: 10px;
+	margin:20px;
+	background: #4682B4;
 }
 #About p
 {
-	padding:40px;
+	padding:120px;
 	padding-top:0px;
 	font-family: Verdana;
 	color: ;
-	font-size: 25px;
+	font-size: 30px;
 	line-height:40px;
+	margin:0px;
 }
 #About h1
 {
+	margin:0px;
 	font-weight: lighter;
 	font-family: Segoe UI;
 	color: #d2d2d2;
-	font-size: 60px;
-	text-align: center
+	font-size: 70px;
+	text-align: center;
+	padding:30px;
 }
 
 #Services
 {
-	background: #008081
+	border-radius: 10px;
+	background:#73c2fb;
+	margin:20px;
 }
 
 #Services p
 {	
-	padding:40px;
+	padding:120px;
 	padding-top:0px;
 	font-family: Verdana;
-	color: ;
-	font-size: 25px;
-	line-height:40px;
+	color:#373d3f ;
+	font-size: 30px;
+	line-height:50px;
+	margin:0px;
 }
 #Services h1
 {
+	margin:0px;
+	font-weight: lighter;
+	font-family: Segoe UI;
+	color: #474747;
+	font-size: 70px;
+	text-align: center
+}
+#MyWork
+{
+	background:#1c2833;
+	padding:40px; 
+	border-radius: 10px;
+	margin: 20px;
+}
+#MyWork h1
+{
+	margin:30px;
 	font-weight: lighter;
 	font-family: Segoe UI;
 	color: #d2d2d2;
-	font-size: 60px;
-	text-align: center
+	font-size: 70px;
+	text-align: center;
+	padding:10px;
+}
+#MyWork img
+{
+	border-radius: 10px;
+	margin: 10px;
 }
 #Contact h1
 {
+	margin:0px;
 	font-weight: lighter;
 	font-family: Segoe UI;
 	color: #d2d2d2;
-	font-size: 60px;
-	text-align: center
+	font-size: 70px;
+	text-align: center;
+	padding: 30px;
 }
 
 #Contact
 {
-	background: #008081;
+	border-radius: 10px;
+	margin:20px;
+	background: #34495e;
+	padding:20px;
 }
 
+#Contact h2
+
+{
+
+	margin:10px;
+	padding-bottom:20px;
+}
+#Contact h3
+{
+	font-family: Segoe UI;
+	margin:10px;
+	margin-bottom:40px;
+	padding-left:200px;
+	font-size: 35px;
+	color: #b8b8b8;
+	font-weight: lighter;
+}
+legend
+{
+	font-family: Segoe UI;
+    color: #dadedf;
+    font-size: 30px;
+}
+fieldset
+{
+	border:#b8b8b8 solid 2px;
+	padding:30px;
+}
+label
+{
+	font-family: Segoe UI;
+    color: #dadedf;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: normal;
+}
+input[type=text]
+{
+	margin-left:80px;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+input[type=email]
+{
+	margin-left: 88px;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+input[type=tel]
+{
+	padding-left: 10px;
+	margin-left: 20px;
+	font-size: 30px;
+	padding-right: 20px;
+}
+input[type=submit]
+{
+	float:right;
+	margin-right: 7px;
+	padding: 5px 20px;
+	border-radius: 4px;
+	font-size: 30px;
+}
 footer
 {
-	background:#008081;
+	border-radius: 10px;
+	margin:10px;
+	background:;
 	font-weight: lighter;
 	font-family: Segoe UI;
-	color: #d2d2d2;
-	font-size: 40px;
-	text-align: center
+	color: #474747;
+	font-size: 60px;
+	text-align: center;
+	padding:20px;
+	padding-bottom: 30px;
+}
+footer p
+{
+	margin:0px;
 }
 #cdetails
 {
-	margin-left:100px;
+	margin-left:200px;
 	float: left;
 }
 #social
@@ -187,15 +300,66 @@ footer
 	padding-right: 30px;
 	margin-right: 300px;
 }
-#bfb
+h4
 {
-	padding-left: 30px;
-	margin-bottom: 10px;
+	margin-top: 0px;
+	float:right;
+	padding-right: 200px;
+	font-family: Segoe UI;
+    color: #dadedf;
+    font-size: 30px;
+    font-weight: normal;
+}
+#bfb
+{   
+	background: #1d2129;
+    background-image: url(fb.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    border: #fff solid 3px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 8px 15px;
+    padding-left: 60px;
+    font-family: Segoe UI;
+    color: #e9ebee;
+    font-weight: bold;
+    font-size: 18px;
 }
 #bli
-{
+{	
+	background: #1d2129;
+	background-image:url(ln.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	border:#fff solid 3px;
 	padding-left: 30px;
 	padding-right: 14px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding:8px 23px;
+	padding-left: 60px;
+	color:#e9ebee;
+	font-weight: bold;
+	font-size: 18px;
+}
+#bgit
+{	
+	background: #1d2129;
+	background-image:url(git.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	border:#fff solid 3px;
+	padding-left: 30px;
+	padding-right: 22px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	padding:8px 38px;
+	padding-left: 60px;
+	color:#e9ebee;
+	font-weight: bold;
+	font-size: 18px;
 }
 .clr
 {
